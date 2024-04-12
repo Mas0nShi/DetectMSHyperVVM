@@ -56,8 +56,8 @@ bool HviIsHypervisorMicrosoftCompatible() {
 // HvCpuIdFunctionMsHvFeatures
 bool HviIsHypervisorFeaturePresent() {
     if (!HviIsAnyHypervisorPresent()) {
-		return false;
-	}
+	return false;
+}
 
 	HV_CPUID_RESULT hvCpuIdResult = {};
 
